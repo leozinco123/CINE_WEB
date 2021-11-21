@@ -1,9 +1,14 @@
 <template>
   <v-app>
-    <v-system-bar app height="20" style="display: flex; justify-content: center">
+    <v-system-bar app height="20"
+     style="display: flex; justify-content: center">
       v-system-bar 
       </v-system-bar>
-    
+
+      <v-app-bar app elevation="5" style="display: flex; justify-content: center">
+     v-app-bar
+    </v-app-bar>
+
   </v-app>
 </template>
 
