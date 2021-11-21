@@ -5,25 +5,33 @@
       v-system-bar 
       </v-system-bar>
 
-      <v-app-bar app elevation="5" style="display: flex; justify-content: center">
+      <v-app-bar app elevation="5" 
+      style="display: flex; justify-content: center">
      v-app-bar
     </v-app-bar>
 
     <v-main>
-        <v-row style="height: 100%; margin: 0">
-            <v-navigation-drawer permanent style="display: flex; align-items: center; justify-content: center"
+        <v-row 
+        style="height: 100%; margin: 0">
+            <v-navigation-drawer permanent 
+            style="display: flex; align-items: center; justify-content: center"
             >
-              <div style="height: 100%; display: flex; align-items: center;">v-navigation-drawer</div>
+              <span 
+              style="height: 100%; display: flex; align-items: center;">
+              v-navigation-drawer</span>
             </v-navigation-drawer>
-            <v-content style="padding: 0">
-              <div style="height: 100%; display: flex; align-items: center; justify-content: center"
-              >v-content</div>
+            <v-content style="padding: 0"
+            >
+              <p 
+              style="height: 100%; display: flex; align-items: center; justify-content: center"
+              >v-content</p>
             </v-content>
         
         </v-row>
     </v-main>
 
-    <v-bottom-navigation>v-bottom-navigation</v-bottom-navigation>
+    <v-footer style="display: flex; justify-content: center">v-footer</v-footer>
+    <v-bottom-navigation >v-bottom-navigation</v-bottom-navigation>
     
     
   </v-app>
