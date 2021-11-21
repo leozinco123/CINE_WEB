@@ -22,6 +22,9 @@
         
         </v-row>
     </v-main>
+
+    <v-bottom-navigation>v-bottom-navigation</v-bottom-navigation>
+    
     
   </v-app>
 </template>
