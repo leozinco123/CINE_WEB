@@ -1,28 +1,26 @@
-# af
-
-# Print do layout
-![image](https://user-images.githubusercontent.com/71077485/142782114-41635ee6-9369-4d88-970d-6d3b21661c79.png)
-
+# my-first-vue-app
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+npm run build
 ```
 
 ### Lints and fixes files
 ```
-yarn lint
+npm run lint
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+![img1]()
